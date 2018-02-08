@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F8577F8202C00BC0033224D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8577F7202C00BC0033224D /* AppDelegate.swift */; };
+		8F8577FA202C00BC0033224D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8577F9202C00BC0033224D /* ViewController.swift */; };
+		8F8577FD202C00BC0033224D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8577FB202C00BC0033224D /* Main.storyboard */; };
+		8F857800202C00BC0033224D /* Personality_Makeup_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F8577FE202C00BC0033224D /* Personality_Makeup_Test.xcdatamodeld */; };
+		8F857802202C00BC0033224D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F857801202C00BC0033224D /* Assets.xcassets */; };
+		8F857805202C00BC0033224D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F857803202C00BC0033224D /* LaunchScreen.storyboard */; };
+		8F857810202C00BD0033224D /* Personality_Makeup_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F85780F202C00BD0033224D /* Personality_Makeup_TestTests.swift */; };
+		8F85781B202C00BD0033224D /* Personality_Makeup_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F85781A202C00BD0033224D /* Personality_Makeup_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F85780C202C00BD0033224D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F8577EC202C00BC0033224D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F8577F3202C00BC0033224D;
+			remoteInfo = "Personality Makeup Test";
+		};
+		8F857817202C00BD0033224D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F8577EC202C00BC0033224D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F8577F3202C00BC0033224D;
+			remoteInfo = "Personality Makeup Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F8577F4202C00BC0033224D /* Personality Makeup Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personality Makeup Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8577F7202C00BC0033224D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F8577F9202C00BC0033224D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F8577FC202C00BC0033224D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F8577FF202C00BC0033224D /* Personality_Makeup_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Personality_Makeup_Test.xcdatamodel; sourceTree = "<group>"; };
+		8F857801202C00BC0033224D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F857804202C00BC0033224D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F857806202C00BD0033224D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F85780B202C00BD0033224D /* Personality Makeup TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personality Makeup TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F85780F202C00BD0033224D /* Personality_Makeup_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality_Makeup_TestTests.swift; sourceTree = "<group>"; };
+		8F857811202C00BD0033224D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F857816202C00BD0033224D /* Personality Makeup TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personality Makeup TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F85781A202C00BD0033224D /* Personality_Makeup_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality_Makeup_TestUITests.swift; sourceTree = "<group>"; };
+		8F85781C202C00BD0033224D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F8577F1202C00BC0033224D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F857808202C00BD0033224D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F857813202C00BD0033224D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F8577EB202C00BC0033224D = {
+			isa = PBXGroup;
+			children = (
+				8F8577F6202C00BC0033224D /* Personality Makeup Test */,
+				8F85780E202C00BD0033224D /* Personality Makeup TestTests */,
+				8F857819202C00BD0033224D /* Personality Makeup TestUITests */,
+				8F8577F5202C00BC0033224D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F8577F5202C00BC0033224D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F8577F4202C00BC0033224D /* Personality Makeup Test.app */,
+				8F85780B202C00BD0033224D /* Personality Makeup TestTests.xctest */,
+				8F857816202C00BD0033224D /* Personality Makeup TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F8577F6202C00BC0033224D /* Personality Makeup Test */ = {
+			isa = PBXGroup;
+			children = (
+				8F8577F7202C00BC0033224D /* AppDelegate.swift */,
+				8F8577F9202C00BC0033224D /* ViewController.swift */,
+				8F8577FB202C00BC0033224D /* Main.storyboard */,
+				8F857801202C00BC0033224D /* Assets.xcassets */,
+				8F857803202C00BC0033224D /* LaunchScreen.storyboard */,
+				8F857806202C00BD0033224D /* Info.plist */,
+				8F8577FE202C00BC0033224D /* Personality_Makeup_Test.xcdatamodeld */,
+			);
+			path = "Personality Makeup Test";
+			sourceTree = "<group>";
+		};
+		8F85780E202C00BD0033224D /* Personality Makeup TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F85780F202C00BD0033224D /* Personality_Makeup_TestTests.swift */,
+				8F857811202C00BD0033224D /* Info.plist */,
+			);
+			path = "Personality Makeup TestTests";
+			sourceTree = "<group>";
+		};
+		8F857819202C00BD0033224D /* Personality Makeup TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F85781A202C00BD0033224D /* Personality_Makeup_TestUITests.swift */,
+				8F85781C202C00BD0033224D /* Info.plist */,
+			);
+			path = "Personality Makeup TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F8577F3202C00BC0033224D /* Personality Makeup Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F85781F202C00BD0033224D /* Build configuration list for PBXNativeTarget "Personality Makeup Test" */;
+			buildPhases = (
+				8F8577F0202C00BC0033224D /* Sources */,
+				8F8577F1202C00BC0033224D /* Frameworks */,
+				8F8577F2202C00BC0033224D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Personality Makeup Test";
+			productName = "Personality Makeup Test";
+			productReference = 8F8577F4202C00BC0033224D /* Personality Makeup Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F85780A202C00BD0033224D /* Personality Makeup TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F857822202C00BD0033224D /* Build configuration list for PBXNativeTarget "Personality Makeup TestTests" */;
+			buildPhases = (
+				8F857807202C00BD0033224D /* Sources */,
+				8F857808202C00BD0033224D /* Frameworks */,
+				8F857809202C00BD0033224D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F85780D202C00BD0033224D /* PBXTargetDependency */,
+			);
+			name = "Personality Makeup TestTests";
+			productName = "Personality Makeup TestTests";
+			productReference = 8F85780B202C00BD0033224D /* Personality Makeup TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F857815202C00BD0033224D /* Personality Makeup TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F857825202C00BD0033224D /* Build configuration list for PBXNativeTarget "Personality Makeup TestUITests" */;
+			buildPhases = (
+				8F857812202C00BD0033224D /* Sources */,
+				8F857813202C00BD0033224D /* Frameworks */,
+				8F857814202C00BD0033224D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F857818202C00BD0033224D /* PBXTargetDependency */,
+			);
+			name = "Personality Makeup TestUITests";
+			productName = "Personality Makeup TestUITests";
+			productReference = 8F857816202C00BD0033224D /* Personality Makeup TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F8577EC202C00BC0033224D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Victor Huang";
+				TargetAttributes = {
+					8F8577F3202C00BC0033224D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8F85780A202C00BD0033224D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F8577F3202C00BC0033224D;
+					};
+					8F857815202C00BD0033224D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F8577F3202C00BC0033224D;
+					};
+				};
+			};
+			buildConfigurationList = 8F8577EF202C00BC0033224D /* Build configuration list for PBXProject "Personality Makeup Test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F8577EB202C00BC0033224D;
+			productRefGroup = 8F8577F5202C00BC0033224D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F8577F3202C00BC0033224D /* Personality Makeup Test */,
+				8F85780A202C00BD0033224D /* Personality Makeup TestTests */,
+				8F857815202C00BD0033224D /* Personality Makeup TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F8577F2202C00BC0033224D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F857805202C00BC0033224D /* LaunchScreen.storyboard in Resources */,
+				8F857802202C00BC0033224D /* Assets.xcassets in Resources */,
+				8F8577FD202C00BC0033224D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F857809202C00BD0033224D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F857814202C00BD0033224D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F8577F0202C00BC0033224D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8577FA202C00BC0033224D /* ViewController.swift in Sources */,
+				8F8577F8202C00BC0033224D /* AppDelegate.swift in Sources */,
+				8F857800202C00BC0033224D /* Personality_Makeup_Test.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F857807202C00BD0033224D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F857810202C00BD0033224D /* Personality_Makeup_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F857812202C00BD0033224D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F85781B202C00BD0033224D /* Personality_Makeup_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F85780D202C00BD0033224D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F8577F3202C00BC0033224D /* Personality Makeup Test */;
+			targetProxy = 8F85780C202C00BD0033224D /* PBXContainerItemProxy */;
+		};
+		8F857818202C00BD0033224D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F8577F3202C00BC0033224D /* Personality Makeup Test */;
+			targetProxy = 8F857817202C00BD0033224D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F8577FB202C00BC0033224D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F8577FC202C00BC0033224D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F857803202C00BC0033224D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F857804202C00BC0033224D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F85781D202C00BD0033224D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F85781E202C00BD0033224D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F857820202C00BD0033224D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personality Makeup Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhuang.com.Personality-Makeup-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F857821202C00BD0033224D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personality Makeup Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhuang.com.Personality-Makeup-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F857823202C00BD0033224D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personality Makeup TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhuang.com.Personality-Makeup-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personality Makeup Test.app/Personality Makeup Test";
+			};
+			name = Debug;
+		};
+		8F857824202C00BD0033224D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personality Makeup TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhuang.com.Personality-Makeup-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personality Makeup Test.app/Personality Makeup Test";
+			};
+			name = Release;
+		};
+		8F857826202C00BD0033224D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personality Makeup TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhuang.com.Personality-Makeup-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personality Makeup Test";
+			};
+			name = Debug;
+		};
+		8F857827202C00BD0033224D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personality Makeup TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhuang.com.Personality-Makeup-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personality Makeup Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F8577EF202C00BC0033224D /* Build configuration list for PBXProject "Personality Makeup Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F85781D202C00BD0033224D /* Debug */,
+				8F85781E202C00BD0033224D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F85781F202C00BD0033224D /* Build configuration list for PBXNativeTarget "Personality Makeup Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F857820202C00BD0033224D /* Debug */,
+				8F857821202C00BD0033224D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F857822202C00BD0033224D /* Build configuration list for PBXNativeTarget "Personality Makeup TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F857823202C00BD0033224D /* Debug */,
+				8F857824202C00BD0033224D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F857825202C00BD0033224D /* Build configuration list for PBXNativeTarget "Personality Makeup TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F857826202C00BD0033224D /* Debug */,
+				8F857827202C00BD0033224D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F8577FE202C00BC0033224D /* Personality_Makeup_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F8577FF202C00BC0033224D /* Personality_Makeup_Test.xcdatamodel */,
+			);
+			currentVersion = 8F8577FF202C00BC0033224D /* Personality_Makeup_Test.xcdatamodel */;
+			path = Personality_Makeup_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8F8577EC202C00BC0033224D /* Project object */;
+}
