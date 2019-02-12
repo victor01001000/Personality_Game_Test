@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Personality_Makeup_Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ab-zg-FkO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="224"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krS-A3-Nmq">
+                                        <rect key="frame" x="127" y="94" width="121" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="krS-A3-Nmq" firstAttribute="centerX" secondItem="0Ab-zg-FkO" secondAttribute="centerX" id="BVT-52-FHz"/>
+                                    <constraint firstAttribute="height" constant="224" id="Tpv-kE-32d"/>
+                                    <constraint firstAttribute="width" constant="375" id="Wft-g7-GSQ"/>
+                                    <constraint firstItem="krS-A3-Nmq" firstAttribute="centerY" secondItem="0Ab-zg-FkO" secondAttribute="centerY" id="buP-FA-3ef"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tch-qI-Ckh">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOi-VV-k35">
+                                        <rect key="frame" x="87" y="49" width="65" height="30"/>
+                                        <state key="normal" title="Take Test"/>
+                                        <connections>
+                                            <segue destination="iXu-s9-x07" kind="show" identifier="goToQuiz" id="6I2-LN-Neu"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="3lM-8W-2Dh"/>
+                                    <constraint firstItem="sOi-VV-k35" firstAttribute="centerX" secondItem="tch-qI-Ckh" secondAttribute="centerX" id="cDJ-NW-EHH"/>
+                                    <constraint firstItem="sOi-VV-k35" firstAttribute="centerY" secondItem="tch-qI-Ckh" secondAttribute="centerY" id="cwc-zJ-Sgy"/>
+                                    <constraint firstAttribute="width" constant="240" id="gMz-PI-izS"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nT6-kB-BBH">
+                                <rect key="frame" x="67" y="405" width="240" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wE-f8-JOe">
+                                        <rect key="frame" x="105" y="49.5" width="30" height="30"/>
+                                        <state key="normal" title="Play"/>
+                                        <connections>
+                                            <segue destination="XKw-bc-kEA" kind="show" identifier="goToGame" id="mEn-Xo-72n"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="b8i-gB-pbg"/>
+                                    <constraint firstAttribute="width" constant="240" id="dCv-J6-C9b"/>
+                                    <constraint firstItem="3wE-f8-JOe" firstAttribute="centerX" secondItem="nT6-kB-BBH" secondAttribute="centerX" id="eXw-kB-civ"/>
+                                    <constraint firstItem="3wE-f8-JOe" firstAttribute="centerY" secondItem="nT6-kB-BBH" secondAttribute="centerY" id="sd0-IY-wZW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0Ab-zg-FkO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="B88-BS-CfK"/>
+                            <constraint firstItem="0Ab-zg-FkO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="C9c-6o-KaH"/>
+                            <constraint firstItem="nT6-kB-BBH" firstAttribute="top" secondItem="tch-qI-Ckh" secondAttribute="bottom" constant="8" id="GXQ-dq-aDA"/>
+                            <constraint firstItem="0Ab-zg-FkO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YnE-fz-PMF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tch-qI-Ckh" secondAttribute="trailing" constant="68" id="eNL-XW-nmR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nT6-kB-BBH" secondAttribute="trailing" constant="68" id="hc8-jl-pmD"/>
+                            <constraint firstItem="nT6-kB-BBH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="i7u-6o-O5k"/>
+                            <constraint firstItem="tch-qI-Ckh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="iWd-qI-Hiv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nT6-kB-BBH" secondAttribute="bottom" constant="134" id="pKY-ce-HKk"/>
+                            <constraint firstItem="tch-qI-Ckh" firstAttribute="top" secondItem="0Ab-zg-FkO" secondAttribute="bottom" constant="45" id="qQ9-sw-TIe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="yoe-8s-cRD">
+            <objects>
+                <viewController id="XKw-bc-kEA" customClass="GameViewController" customModule="Personality_Makeup_Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="060-yd-3L5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2Z-2r-u3m">
+                                <rect key="frame" x="10" y="20" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go Back"/>
+                                <connections>
+                                    <action selector="goBack:" destination="XKw-bc-kEA" eventType="touchUpInside" id="uAP-Jf-x9s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="H6B-PN-tAw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j54-sW-FYv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1265" y="425"/>
+        </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="8Qi-bJ-YHE">
+            <objects>
+                <viewController id="iXu-s9-x07" customClass="QuizViewController" customModule="Personality_Makeup_Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zIk-i4-ceu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W7z-9R-F00">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="342"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANo-Ud-WcN">
+                                        <rect key="frame" x="8" y="28" width="58" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Go Back"/>
+                                        <connections>
+                                            <action selector="goBack:" destination="3xQ-aY-GRX" eventType="touchUpInside" id="8SD-6a-WQB"/>
+                                            <action selector="goBack:" destination="iXu-s9-x07" eventType="touchUpInside" id="ZLM-To-CXg"/>
+                                            <action selector="goBackHome:" destination="3xQ-aY-GRX" eventType="touchUpInside" id="E2D-CT-t3P"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OjK-8n-fa1">
+                                        <rect key="frame" x="52" y="115" width="270" height="113"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="ZpT-gn-D9y"/>
+                                    <constraint firstAttribute="height" constant="342" id="pnp-rH-O91"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="W7z-9R-F00" firstAttribute="trailing" secondItem="mNX-cx-vfc" secondAttribute="trailing" id="Dxj-0Y-Mgf"/>
+                            <constraint firstItem="W7z-9R-F00" firstAttribute="top" secondItem="zIk-i4-ceu" secondAttribute="top" id="Sna-gn-x4d"/>
+                            <constraint firstItem="W7z-9R-F00" firstAttribute="leading" secondItem="mNX-cx-vfc" secondAttribute="leading" id="jIN-aH-NGu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mNX-cx-vfc"/>
+                    </view>
+                    <connections>
+                        <outlet property="questionLabel" destination="OjK-8n-fa1" id="fIa-nP-mki"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mQH-gH-XJA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="3xQ-aY-GRX" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1264.8" y="-300"/>
+        </scene>
+    </scenes>
+</document>
