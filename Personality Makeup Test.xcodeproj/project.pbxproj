@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F3898462212875D000DCEB1 /* Personality_Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3898452212875D000DCEB1 /* Personality_Game.swift */; };
 		8F8577F8202C00BC0033224D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8577F7202C00BC0033224D /* AppDelegate.swift */; };
 		8F8577FA202C00BC0033224D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8577F9202C00BC0033224D /* ViewController.swift */; };
 		8F8577FD202C00BC0033224D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8577FB202C00BC0033224D /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F3898452212875D000DCEB1 /* Personality_Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Personality_Game.swift; path = ../Personality_Game.swift; sourceTree = "<group>"; };
 		8F8577F4202C00BC0033224D /* Personality Makeup Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personality Makeup Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8577F7202C00BC0033224D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F8577F9202C00BC0033224D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		8F8577EB202C00BC0033224D = {
 			isa = PBXGroup;
 			children = (
+				8F3898452212875D000DCEB1 /* Personality_Game.swift */,
 				8F8577F6202C00BC0033224D /* Personality Makeup Test */,
 				8F85780E202C00BD0033224D /* Personality Makeup TestTests */,
 				8F857819202C00BD0033224D /* Personality Makeup TestUITests */,
@@ -302,6 +305,7 @@
 				8F8577FA202C00BC0033224D /* ViewController.swift in Sources */,
 				8F8577F8202C00BC0033224D /* AppDelegate.swift in Sources */,
 				8F857800202C00BC0033224D /* Personality_Makeup_Test.xcdatamodeld in Sources */,
+				8F3898462212875D000DCEB1 /* Personality_Game.swift in Sources */,
 				8F857830202C08F70033224D /* QuizQuestions.swift in Sources */,
 				8F857832202C09180033224D /* Question.swift in Sources */,
 				8F857829202C02A40033224D /* QuizViewController.swift in Sources */,

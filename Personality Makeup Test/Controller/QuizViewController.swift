@@ -11,7 +11,11 @@ import UIKit
 class QuizViewController: UIViewController {
     
     let allQuestions = QuizQuestions()
+    var pickedAnswer : Bool = false
     var questionNumber : Int = 0
+    var introvert : Int = 0
+    var extrovert : Int = 0
+    var you : String = ""
     
     @IBOutlet weak var questionLabel: UILabel!
     
