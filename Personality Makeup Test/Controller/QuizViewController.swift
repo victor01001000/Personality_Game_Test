@@ -18,17 +18,20 @@ class QuizViewController: UIViewController {
     var you : String = ""
     
     @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var buttonChoiceOne: UIButton!
+    @IBOutlet weak var buttonChoiceTwo: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         questionLabel.text = allQuestions.questionBank[questionNumber].questionText  
-        // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
     }
     
 

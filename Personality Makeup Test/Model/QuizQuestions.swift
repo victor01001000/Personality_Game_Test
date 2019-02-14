@@ -13,10 +13,13 @@ class QuizQuestions {
     var questionBank = [Question]()
     
     init() {
-        let item = Question(text: "Welcome!")
+        let item = Question(text: "Basic Personality Test")
         questionBank.append(item)
-        questionBank.append(Question(text: "Question 1"))
-        questionBank.append(Question(text: "Question 2"))
+        questionBank.append(Question(text: "I prefer intimate conversations between two people."))
+        questionBank.append(Question(text: "I prefer phone conversations over texting."))
+        questionBank.append(Question(text: "I feel extremely drained after a party."))
+        questionBank.append(Question(text: "Question 4"))
+        questionBank.append(Question(text: "Question 5"))
     }
 
 }
