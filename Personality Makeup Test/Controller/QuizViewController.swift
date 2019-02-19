@@ -24,10 +24,23 @@ class QuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        nextQuestion()
         questionLabel.text = allQuestions.questionBank[questionNumber].questionText  
         
     }
+    
+    
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        if sender.tag == 1{
+            pickedAnswer = true
+        } else if sender.tag == 2 {
+            pickedAnswer = false
+        }
+        checkAnswer()
+        questionNumber = questionNumber + 1
+        nextQuestion()
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -37,6 +50,28 @@ class QuizViewController: UIViewController {
 
     @IBAction func goBack(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    func updateUI() {
+        
+    }
+    
+    func nextQuestion() {
+        
+        if questionNumber < allQuestions.questionBank.count {
+            questionLabel.text = allQuestions.questionBank[questionNumber].questionText
+        } else {
+            startOver()
+        }
+    }
+    
+    func checkAnswer() {
+        
+    }
+
+    func startOver() {
+        questionNumber = 0
+        nextQuestion()
     }
     
     /*
