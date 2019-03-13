@@ -13,18 +13,18 @@ class QuizQuestions {
     var questionBank = [Question]()
     
     init() {
-        let item = Question(text: "Basic Personality Test")
+        let item = Question(text: "I prefer intimate conversations between two people.", correctAnswer: true, person: "E", optionO: "Yes", optionT: "No")
         questionBank.append(item)
-        questionBank.append(Question(text: "I prefer intimate conversations between two people."))
-        questionBank.append(Question(text: "I prefer phone conversations over texting."))
-        questionBank.append(Question(text: "I feel extremely drained after a party."))
-        questionBank.append(Question(text: "Question 4"))
-        questionBank.append(Question(text: "Question 5"))
-        questionBank.append(Question(text: "Question 6"))
-        questionBank.append(Question(text: "Question 7"))
-        questionBank.append(Question(text: "Question 8"))
-        questionBank.append(Question(text: "Question 9"))
-        questionBank.append(Question(text: "Question 10"))
+        questionBank.append(Question(text: "I prefer texting", correctAnswer: true, person: "E", optionO: "Yes", optionT: "No"))
+        questionBank.append(Question(text: "I prefer phone conversations over texting.", correctAnswer: true, person: "E", optionO: "Yes", optionT: "No"))
+        questionBank.append(Question(text: "I feel extremely drained after a party.", correctAnswer: true, person: "E", optionO: "Yes", optionT: "No"))
+        questionBank.append(Question(text: "Question 4", correctAnswer: true, person: "E", optionO: "Yes", optionT: "No"))
+        questionBank.append(Question(text: "Question 5", correctAnswer: true, person: "E", optionO: "Yes", optionT: "No"))
+        questionBank.append(Question(text: "Question 6", correctAnswer: true, person: "E", optionO: "Yes", optionT: "No"))
+        questionBank.append(Question(text: "Question 7", correctAnswer: true, person: "E", optionO: "Yes", optionT: "No"))
+        questionBank.append(Question(text: "Question 8", correctAnswer: true, person: "E", optionO: "Yes", optionT: "No"))
+        questionBank.append(Question(text: "Question 9", correctAnswer: true, person: "E", optionO: "Yes", optionT: "No"))
+        questionBank.append(Question(text: "Question 10", correctAnswer: true, person: "E", optionO: "Yes", optionT: "No"))
     }
 
 }

@@ -61,20 +61,47 @@ class QuizViewController: UIViewController {
         if questionNumber < allQuestions.questionBank.count {
             questionLabel.text = allQuestions.questionBank[questionNumber].questionText
         } else {
-            startOver()
+            if extrovert > introvert {
+                you = "extrovert"
+            } else if introvert > extrovert {
+                you = "introvert"
+            } else {
+                you = "ambivert"
+            }
+            let alert = UIAlertController(title: "You are an \(you)", message: "Restart the Quiz?", preferredStyle: .alert)
+            let restartAction = UIAlertAction(title: "Restart", style: .default, handler: { (UIAlertAction) in self.startOver()})
+            
+            alert.addAction(restartAction)
+            
+            present(alert, animated: true, completion: nil)
         }
     }
     
     func checkAnswer() {
-        if pickedAnswer == true {
-            introvert = introvert + 1
-        } else {
-            extrovert = extrovert + 1
+        let correctAnswer = allQuestions.questionBank[questionNumber].answer
+        let pers = allQuestions.questionBank[questionNumber].personality
+        if pickedAnswer == correctAnswer {
+            if pers == "E" {
+                extrovert += 1
+                print(extrovert)
+            } else if pers == "I" {
+                introvert += 1
+                print(extrovert)
+            }
+        } else if pickedAnswer == false {
+            if pers == "E" {
+                introvert += 1
+                
+            } else if pers == "I" {
+                extrovert += 1
+                
+            }
         }
     }
-
     func startOver() {
         questionNumber = 0
+        extrovert = 0
+        introvert = 0
         nextQuestion()
     }
 }

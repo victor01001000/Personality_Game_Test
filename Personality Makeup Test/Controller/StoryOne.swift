@@ -9,6 +9,14 @@
 import UIKit
 
 class StoryOne: UIViewController {
+    
+    let allQuestions = QuizQuestions()
+    var pickedAnswer : Bool = false
+    var questionNumber : Int = 0
+    var introvert : Int = 0
+    var extrovert : Int = 0
+    var you : String = "" 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
