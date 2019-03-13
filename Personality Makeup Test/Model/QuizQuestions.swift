@@ -20,6 +20,11 @@ class QuizQuestions {
         questionBank.append(Question(text: "I feel extremely drained after a party."))
         questionBank.append(Question(text: "Question 4"))
         questionBank.append(Question(text: "Question 5"))
+        questionBank.append(Question(text: "Question 6"))
+        questionBank.append(Question(text: "Question 7"))
+        questionBank.append(Question(text: "Question 8"))
+        questionBank.append(Question(text: "Question 9"))
+        questionBank.append(Question(text: "Question 10"))
     }
 
 }
