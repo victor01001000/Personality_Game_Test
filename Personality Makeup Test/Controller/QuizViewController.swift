@@ -66,7 +66,11 @@ class QuizViewController: UIViewController {
     }
     
     func checkAnswer() {
-        
+        if pickedAnswer == true {
+            introvert = introvert + 1
+        } else {
+            extrovert = extrovert + 1
+        }
     }
 
     func startOver() {
