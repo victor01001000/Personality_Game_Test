@@ -12,14 +12,10 @@ class Question {
     let questionText : String
     let answer : Bool
     let personality : String
-    let optionOne : String
-    let optionTwo : String
     
-    init(text: String, correctAnswer: Bool, person: String, optionO: String, optionT: String) {
+    init(text: String, correctAnswer: Bool, person: String) {
         questionText = text
         answer = correctAnswer
         personality = person
-        optionOne = optionO
-        optionTwo = optionT
-    }
+    } 
 }

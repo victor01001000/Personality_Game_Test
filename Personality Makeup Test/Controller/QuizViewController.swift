@@ -11,7 +11,7 @@ import UIKit
 class QuizViewController: UIViewController {
     
     let allQuestions = QuizQuestions()
-    var pickedAnswer : Bool = false
+    var pickedAnswer : Int = 0
     var questionNumber : Int = 0
     var introvert : Int = 0
     var extrovert : Int = 0
@@ -32,9 +32,15 @@ class QuizViewController: UIViewController {
     
     @IBAction func buttonPressed(_ sender: UIButton) {
         if sender.tag == 1{
-            pickedAnswer = true
+            pickedAnswer = 1
         } else if sender.tag == 2 {
-            pickedAnswer = false
+            pickedAnswer = 2
+        } else if sender.tag == 3 {
+            pickedAnswer = 3
+        } else if sender.tag == 4 {
+            pickedAnswer = 4
+        } else if sender.tag == 5 {
+            pickedAnswer = 5
         }
         checkAnswer()
         questionNumber = questionNumber + 1
@@ -78,24 +84,13 @@ class QuizViewController: UIViewController {
     }
     
     func checkAnswer() {
-        let correctAnswer = allQuestions.questionBank[questionNumber].answer
         let pers = allQuestions.questionBank[questionNumber].personality
-        if pickedAnswer == correctAnswer {
-            if pers == "E" {
-                extrovert += 1
-                print(extrovert)
-            } else if pers == "I" {
-                introvert += 1
-                print(extrovert)
-            }
-        } else if pickedAnswer == false {
-            if pers == "E" {
-                introvert += 1
-                
-            } else if pers == "I" {
-                extrovert += 1
-                
-            }
+        if pers == "E" {
+            extrovert += pickedAnswer
+            print("extrovert: \(extrovert)")
+        } else if pers == "I" {
+            introvert += pickedAnswer
+            print("intro: \(introvert)")
         }
     }
     func startOver() {
