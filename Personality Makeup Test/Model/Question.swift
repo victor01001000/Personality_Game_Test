@@ -5,7 +5,7 @@
 //  Created by Victor Huang on 2/7/18.
 //  Copyright © 2018 Victor Huang. All rights reserved.
 //
-
+/*
 import Foundation
 
 class Question {
@@ -19,3 +19,4 @@ class Question {
         personality = person
     } 
 }
+*/

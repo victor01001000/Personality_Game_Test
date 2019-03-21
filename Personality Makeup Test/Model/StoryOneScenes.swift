@@ -13,7 +13,8 @@ class StoryOneScenes {
     var sceneBank = [StoryOneQuestion]() 
     
     init() {
-        let scenePart = StoryOneQuestion(text: "Basic Personality Test")
+        let scenePart = StoryOneQuestion(text: "Opening Scene")
         sceneBank.append(scenePart)
+        sceneBank.append(StoryOneQuestion(text: "Scene 1"))
     }
 }

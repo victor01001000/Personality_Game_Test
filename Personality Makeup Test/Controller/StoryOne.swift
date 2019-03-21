@@ -10,17 +10,20 @@ import UIKit
 
 class StoryOne: UIViewController {
     
-    let allQuestions = QuizQuestions()
+    let allScenes = StoryOneScenes() 
     var pickedAnswer : Bool = false
     var questionNumber : Int = 0
     var introvert : Int = 0
     var extrovert : Int = 0
-    var you : String = "" 
+    var you : String = ""
+    var sceneNumber = 0
+    
+    @IBOutlet weak var SceneText: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        SceneText.text = allScenes.sceneBank[sceneNumber].sceneText
     }
     
     @IBAction func actionOne(_ sender: UIButton) {

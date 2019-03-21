@@ -6,7 +6,7 @@
 //  Copyright © 2018 Victor Huang. All rights reserved.
 //
 
-import UIKit
+/*import UIKit
 
 class QuizViewController: UIViewController {
     
@@ -100,3 +100,4 @@ class QuizViewController: UIViewController {
         nextQuestion()
     }
 }
+*/
