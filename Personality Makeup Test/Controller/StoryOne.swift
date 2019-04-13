@@ -29,6 +29,17 @@ class StoryOne: UIViewController {
     @IBAction func actionOne(_ sender: UIButton) {
     }
     
+    @IBAction func Choice(_ sender: UIButton) {
+        questionNumber = questionNumber + 1
+        nextScene()
+    }
+    
+    func nextScene() {
+        if questionNumber < allScenes.sceneBank.count {
+            SceneText.text = allScenes.sceneBank[questionNumber].sceneText
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

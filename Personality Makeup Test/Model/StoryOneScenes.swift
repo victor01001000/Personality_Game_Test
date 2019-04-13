@@ -15,6 +15,9 @@ class StoryOneScenes {
     init() {
         let scenePart = StoryOneQuestion(text: "Opening Scene")
         sceneBank.append(scenePart)
-        sceneBank.append(StoryOneQuestion(text: "Scene 1"))
+        sceneBank.append(StoryOneQuestion(text: "Scene 1-1"))
+        sceneBank.append(StoryOneQuestion(text: "Scene 1-2"))
+        sceneBank.append(StoryOneQuestion(text: "Scene 2-1"))
+        sceneBank.append(StoryOneQuestion(text: "Scene 2-2"))
     }
 }
